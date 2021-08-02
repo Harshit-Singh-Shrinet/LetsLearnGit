@@ -31,9 +31,9 @@ public class ToeplitzMatrix {
 
         Scanner input=new Scanner(System.in);
 
-        System.out.println("Enter the number of row of matrix");
+        System.out.println("Enter the number of row of matrix ");
         int row=input.nextInt();
-        System.out.println("Enter the number of columns of matrix");
+        System.out.println("Enter the number of columns of matrix ");
         int column=input.nextInt();
 
         int array[][]=new int[row][column];
